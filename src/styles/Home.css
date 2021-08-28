@@ -1,0 +1,48 @@
+body{
+  background-color: black;
+  color: white;
+}
+
+.dh {
+  color: lightblue;
+}
+
+.pk {
+  color: lightsalmon;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.list{
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  border: 3px solid white;
+  background-color: lightslategray;
+  color: black;
+  padding: 25px;
+}
+
+.list > a{
+  border: 1px solid white;
+  color: black;
+  padding: 5px;
+  margin: 5px;
+  text-decoration: none;
+  text-align: center;
+  text-transform: capitalize; 
+}
+
+.list > a:hover{
+  background-color: lightsalmon;
+  transition: background-color 0.2s ease;
+}
+
+h4{
+  border-bottom: 3px solid white;
+  text-transform: uppercase;
+}

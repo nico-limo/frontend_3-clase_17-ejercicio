@@ -1,0 +1,49 @@
+.pokemon {
+    display: flex;
+    justify-content: center;
+    background-color: lightblue;
+    color: black;
+    width: 50%;
+    margin: 50px;
+    padding: 20px;
+}
+
+.image{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.image > img{
+   width: 240px;
+}
+
+.image > button{
+    width: 100px;
+    background-color: lightsalmon;
+    cursor: pointer;
+}
+
+
+.datos{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.fila{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    border: lightcyan solid 1px;
+}
+
+.fila > h5{
+    margin-right: 10px;
+}
+
+#array{
+    margin-right: 10px;
+}

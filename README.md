@@ -1,21 +1,26 @@
 # Pokedex V 2.0
 
-Si te parecio divertida la pokedex, ¡enhorabuena! vamos a volver a utilziarla.
-
-Vamos a comenzar a utilizar la api de pokemon (pueden interactuar con ella desde este link(Caro poner link aqui: https://pokeapi.co/))
-Veremos una estructura un poco distinta y en esta ocasion, trabajaran tanto en el archivo `App.jsx` y `Pokedex.jsx`.
-
+Dicen que los clasicos nunca mueren, por eso vamos a trabajar nuevamente con nuestra pokedex para implementar react router dom
 
 ## Consigna
 App.jsx:
-- El proyecto cuenta con un `json` pero deberan utilizar el ciclo de vida para hacer llamado a la api y traer los 50 primeros pokemons.
-- Se les brindara los estados necesarios para trabajar, dependera de ustedes como deberan modificar los valores
+- Hacer las rutas para que nuestra aplicacion pueda mostrar los componentes que corresponden
 
-Pokedex.jsx:
-- Deberan hacer una funcion que me filtre los pokemons y otra para resetear la lista. Deberan utilizar eventos
-- Ya tendran un estado para guiarse.
+Pokemon.jsx:
+- Utilizaras las props que recibes por parametros
+- Completar el pedido axios
 - Tambien deberan hacer un llamado a la api para obtener los datos del pokemon seleccionado
 
+Navbar.jsx:
+- Migrar los `links` por componentes de `react router dom`
+
+Home.jsx:
+- Migrar el `link` por componentes de `react router dom`
+
+
+## Bonus Extra
+Si lograste terminar, te invito a realizar una nueva ruta adicional que sea para ver los `moves` del pokemon.
+Tambien que puedan evitar que el usuario entre en cualquier ruta (¿como podiamos evitar este inconveniente?)
 
 
 ### Pasos para correr el proyecto
