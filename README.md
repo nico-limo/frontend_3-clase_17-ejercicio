@@ -1,4 +1,4 @@
-# Pokedex V 2.0
+# Pokedex V 3.0
 
 Dicen que los clasicos nunca mueren, por eso vamos a trabajar nuevamente con nuestra pokedex para implementar react router dom
 
