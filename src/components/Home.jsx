@@ -37,7 +37,8 @@ export default class Home extends Component {
           <h4>Elige un pokemon para ver sus datos</h4>
           <div className="list">
               {pokemons.map((pokemon, index) => (
-                <Link key={index} to={`/${index + 1}`} >{pokemon.name}</Link>
+                // AREA DE TRABAJO
+                <a key={index} href={`/${index + 1}`} >{pokemon.name}</a>
               ))}
           </div>
         </div>

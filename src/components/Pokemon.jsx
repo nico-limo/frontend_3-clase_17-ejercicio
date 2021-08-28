@@ -12,8 +12,9 @@ export default class Pokemon extends Component {
     }
 
     componentDidMount() {
-        const {pokemon} = this.props.match.params
-        axios(`https://pokeapi.co/api/v2/pokemon/${pokemon}`)
+        // AREA DE TRABAJO
+        // ¿Como podemos obtener el valor en la url
+        axios(`https://pokeapi.co/api/v2/pokemon/$/*AQUI VA EL PARAMETRO de la URL*/`)
           .then(res => {
             this.setState({ loading: true, pokemon: res.data});
           })
@@ -52,6 +53,7 @@ export default class Pokemon extends Component {
                 </div>
                 <div className="image">
                     <img src={pokemon.sprites.front_default} alt={pokemon.name}/>
+                    {/* BONUS EXTRA: Hacer que el boton te lleve a otra pagina con todos los moves del pokemon */}
                     <button>Moves</button>
                 </div>
             </div>

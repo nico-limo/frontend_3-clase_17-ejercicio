@@ -4,7 +4,8 @@ export default class About extends Component {
     render() {
         return (
             <div>
-                About Section
+                <p>ABOUT SECTION</p>
+                <p>SOLO DEBO APARECER CUANDO HACEN CLICK EN ABOUT</p>
             </div>
         )
     }

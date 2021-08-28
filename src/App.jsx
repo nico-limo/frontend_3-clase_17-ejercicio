@@ -8,16 +8,20 @@ import About from './components/About'
 export default class App extends Component {
     render() {
         return (
-            <BrowserRouter>
+            <>
             <Navbar />
-                <Switch>
-                    <Route exact path="/" component={Home} />
-                    <Route exact path="/about" component={About} />
-                    <Route path="/:pokemon" component={Pokemon} />
-                    {/* Bonus Extra: Ruta para los movimientos */}
-                </Switch>
+            <Home />
+            <About />
+            {/* <Pokemon /> Esta ruta no va funcionar ya que recibe un parametro como props */}
+            </>
 
-            </BrowserRouter>
+            /* AREA DE TRABAJO
+            En este punto deberan utilizar react router dom
+            Arriba tenemos los componentes a utilizar, los mismos deben estar envueltos
+            en los componentes de react router dom. Si no se acuerdan como era la estructura,
+            miren el material previo o la documentacion de react router dom
+            */ 
+
         )
     }
 }
